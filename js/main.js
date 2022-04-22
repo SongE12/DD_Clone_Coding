@@ -50,7 +50,7 @@ new Swiper('.slide .swiper-container', {
   loop: true,
   autoplay: {
     delay: 3000,
-    disableOnInteraction: false
+    disableOnInteraction: false // 사용자 제어 후에도 자동 슬라이드
   },
   pagination: {
     el: '.slide .swiper-pagination', //페이지 번호 요소 선택자
