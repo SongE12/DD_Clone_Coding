@@ -94,6 +94,7 @@ fontEls.forEach(function (fontEl) {
 new Swiper('.footer_slide .swiper-container', {
   slidesPerView: 7.5,
   slidesPerGroup : 4,
+  spaceBetween : 0,
   loop: true,
   autoplay: {
     delay: 3000,
