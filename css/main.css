@@ -398,9 +398,13 @@ section.event .event_description p {
   padding-top: 10px;
 }
 section.event .youtube {
-  border: 1px solid #d1cccb;
   width: 434px;
   height: 244px;
+}
+section.event .youtube iframe {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #d1cccb;
 }
 section.event .btn {
   position: absolute;
